@@ -1,0 +1,42 @@
+body{
+    background-color: #0d1117;
+}
+
+.topLink{
+    color: #9ba3b4;
+    cursor: pointer;
+    padding-left: 20px ;
+}
+
+.searchBarButton{
+    background-color: #ffffff;
+    color: #000000;
+}
+.text{
+    color: #4daafc;
+}
+.header{
+    padding-left: 135px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #e9eaeb;
+}
+.iconPara{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9ba3b4;
+    padding-left: 135px;
+}
+.iconLayer{
+    display: flex;
+}
+.icon{
+    display: flex;
+    gap: 8px;
+}
+.iconBox{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #9ba3b4;
+}
