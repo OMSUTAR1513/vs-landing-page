@@ -7,6 +7,9 @@ body{
     cursor: pointer;
     padding-left: 20px ;
 }
+.topLink:hover{
+    color: #e9eaeb;
+}
 
 .searchBarButton{
     background-color: #ffffff;
@@ -20,23 +23,40 @@ body{
     font-weight: 600;
     font-size: 30px;
     color: #e9eaeb;
+    margin-top: 60px;
 }
-.iconPara{
-    font-size: 16px;
-    font-weight: 500;
-    color: #9ba3b4;
+/*........iconlayer css.............. */
+.container{
+    width: 1200px;
+    /* margin: 0 auto; */
     padding-left: 135px;
-}
-.iconLayer{
-    display: flex;
-}
-.icon{
-    display: flex;
-    gap: 8px;
-}
-.iconBox{
-    display: flex;
-    align-items: center;
-    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 160px;
     color: #9ba3b4;
 }
+
+.horizontalCenter {
+    display: flex;
+}
+.iconHeader{
+    color: #e9eaeb;
+    font-size: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline-start: 2.5rem;
+}
+.grid img{
+    height: 40px;
+}
+.flex{
+    display: flex;
+}
+.verticalCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .............................. */
