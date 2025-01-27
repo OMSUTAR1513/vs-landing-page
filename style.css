@@ -1,5 +1,6 @@
 body{
     background-color: #0d1117;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .topLink{
@@ -12,11 +13,14 @@ body{
 }
 
 .searchBar button{
-    background-color: #0085f9;
+    background-color: #1d91f7;
     color: #ffffff;
     padding: 7px 15px;
     border-radius: 5px;
     cursor: pointer;
+}
+.searchBar button:hover{
+    background-color: #0088ff;
 }
 .searchBar input{
     padding: 7px 20px;
@@ -38,10 +42,13 @@ body{
 }
 .buttons button{
     padding: 10px 17px;
-    background-color: #0085f9;
+    background-color: #1d91f7;
     color: #e9eaeb;
     cursor: pointer;
     border-radius: 6px;
+}
+.buttons button:hover{
+    background-color: #0088ff;
 }
 /*........iconlayer css.............. */
 .container{
